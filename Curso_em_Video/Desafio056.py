@@ -30,7 +30,7 @@ for i in range(2,5):
     idade = float(input('Idade do(a) Usuário(a): '))
     sexo = str(input('Sexo do(a) Usuário(a): '))
     print('')
-    
+    
     media = media + idade
 
     if (idade > id_velho and sexo == 'Masculino'):
